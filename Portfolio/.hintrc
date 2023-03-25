@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
